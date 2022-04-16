@@ -8,7 +8,7 @@ function drawLine(x1,x2,x3,x4) {
     ctx.lineTo(x3,x4);
     ctx.stroke();
     ctx.lineCap = "round";
-    ctx.lineWidth=8;
+    ctx.lineWidth=4;
 }
 let last;
 let painting = false;
